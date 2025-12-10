@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booking Cancellation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+
+<body style="margin: 0px;  padding: 0px;">
+
+  <table style="width:100%;max-width:600px;margin:0px auto;padding:30px 10px;">
+    <tbody>
+      <tr>
+        <td>
+          <img src="{{logo}}" alt="logo">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div style="background: #FAF8F4;padding: 26px;margin: 32px 0px 40px 0px;border-radius: 8px;">
+            <h2
+              style="margin: 0px 0px 24px 0px;color: #2A1523;font-size: 24px;font-weight: 700;font-family: Inter;line-height: 32px;">
+              Booking Cancellation</h2>
+            <p
+              style="color: #2A1523;font-size: 16px;font-weight: 400;line-height: 24px;font-family: Inter;margin: 0px 0px 20px 0px;">
+              Hi, {{username}}</p>
+            <p
+              style="color: #2A1523;font-size: 16px;font-weight: 400;line-height: 24px;font-family: Inter;margin: 0;">
+              Your booking for {{store_name}} on {{date}} at {{time}} has been canceled.</p>
+            <a href="#" style="background: #FFDE6D;padding: 14px 10px;display: table;border-radius: 100px;color: #2A1523;font-size: 16px;font-weight: 600;line-height: 24px;text-decoration: unset;font-family: Inter;width: 100%;text-align: center;margin: 24px 0px 32px 0px;max-width: 300px;">View
+              in app</a>
+            <p
+              style="margin: 0px;color: #2A1523;font-weight: 400;font-size: 15px;line-height: 22px;font-family: Inter;">
+              If you're unsure why you've received this email, please <a href="#"
+                style="color: #007AFF;text-decoration: unset;">contact us</a>.</p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">
+          <img src="{{logo}}" alt="logo">
+          <p
+            style="color: #7A7A7A;font-size: 16px;line-height: 22px;font-weight: 400;margin: 16px 0px 22px 0px;font-family: Inter;">
+            Sent by avatid</p>
+          <p>
+            <a href="#"><img src="{{facebook_icon}}" alt="facebook"></a>
+            <a href="#" style="margin: 0px 12px;"><img src="{{instagram_icon}}" alt="instagram"></a>
+            <a href="#"><img src="{{x_icon}}" alt="twitter"></a>
+          </p>
+          <p style="color: #7A7A7A;font-size: 12px;line-height: 16px;text-align: center;font-weight: 400;font-family: Inter;width:100%;max-width:360px;margin: 0px auto;">
+            Please note that this email is being sent from an email address that can't receive email. Please do not
+            reply to this email.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>

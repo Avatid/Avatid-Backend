@@ -1,0 +1,23 @@
+name: Build image and push to GAR
+on:
+  workflow_dispatch:
+
+# jobs define all steps through which the pipeline goes
+jobs:
+  docker-image-buildPush:
+    uses: development-at-pixelfield/workflow-templates/.github/workflows/dockerfile-compose-workflow.yml@v1.0.1
+    secrets: inherit
+    with:
+       GCLOUD_ZONE: ${{ vars.GCLOUD_ZONE }}
+       DOCKERFILE_PATH: ${{ vars.DOCKERFILE_PATH }}
+       GCLOUD_DOCKER_FILE: ${{ vars.GCLOUD_DOCKER_FILE }}
+       GAR_TAG: ${{ vars.GAR_TAG }}
+
+  celery-image-buildPush:
+    uses: development-at-pixelfield/workflow-templates/.github/workflows/dockerfile-compose-workflow.yml@v1.0.1
+    secrets: inherit
+    with:
+       GCLOUD_ZONE: ${{ vars.GCLOUD_ZONE }}
+       DOCKERFILE_PATH: ${{ vars.CELERY_DOCKERFILE_PATH }}
+       GCLOUD_DOCKER_FILE: ${{ vars.GCLOUD_DOCKER_FILE }}-celery
+       GAR_TAG: ${{ vars.GAR_TAG }}

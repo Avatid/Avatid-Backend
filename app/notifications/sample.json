@@ -1,0 +1,46 @@
+{
+  "notification_schemas": {
+    "BOOKING_CREATED": {
+      "type": "BOOKING_CREATED",
+      "booking_uid": "<string>",
+      "business_uid": "<string>",
+      "user_uid": "<string>"
+    },
+    "BOOKING_CANCELLED": {
+      "type": "BOOKING_CANCELLED",
+      "booking_uid": "<string>",
+      "business_uid": "<string>",
+      "user_uid": "<string>"
+    },
+    "BOOKING_UPDATED": {
+      "type": "BOOKING_UPDATED",
+      "booking_uid": "<string>",
+      "business_uid": "<string>",
+      "user_uid": "<string>"
+    },
+    "BOOKING_REMINDER": {
+      "type": "BOOKING_REMINDER",
+      "booking_uid": "<string>",
+      "business_uid": "<string>",
+      "user_uid": "<string>"
+    },
+    "APPLY": {
+      "type": "APPLY",
+      "apply_uid": "<string>",
+      "business_uid": "<string>",
+      "freelancer_uid": "<string>"
+    },
+    "APPLY_RESPONSE": {
+      "type": "APPLY_RESPONSE",
+      "apply_uid": "<string>",
+      "business_uid": "<string>",
+      "freelancer_uid": "<string>"
+    },
+    "CLIENT_INVITATION": {
+      "type": "CLIENT_INVITATION",
+      "client_uid": "<string>",
+      "business_uid": "<string>",
+      "image": "<string>"
+    }
+  }
+}

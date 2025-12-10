@@ -1,0 +1,1119 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-12 13:13+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: sq\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: business/enums.py:10
+msgid "US Dollar"
+msgstr "Dollari Amerikan"
+
+#: business/enums.py:11
+msgid "Euro"
+msgstr "Euro"
+
+#: business/enums.py:12
+msgid "British Pound"
+msgstr "Pound Britanik"
+
+#: business/enums.py:13
+msgid "Albanian Lek"
+msgstr "Lekë Shqiptare"
+
+#: business/enums.py:34 business/enums.py:43 business/enums.py:55
+#: rating/enums.py:22
+msgid "Rating (High to Low)"
+msgstr "Vlerësimi (Nga më i larti te më i ulëti)"
+
+#: business/enums.py:35 business/enums.py:44 business/enums.py:56
+#: rating/enums.py:23
+msgid "Rating (Low to High)"
+msgstr "Vlerësimi (Nga më i ulëti te më i larti)"
+
+#: business/enums.py:36 business/enums.py:45
+msgid "Distance (Far to Near)"
+msgstr "Distanca (Nga larg te afër)"
+
+#: business/enums.py:37 business/enums.py:46
+msgid "Distance (Near to Far)"
+msgstr "Distanca (Nga afër te larg)"
+
+#: business/enums.py:38 business/enums.py:47 rating/enums.py:25
+msgid "Creation Date (New to Old)"
+msgstr "Data e krijimit (Nga më e reja te më e vjetra)"
+
+#: business/enums.py:39 business/enums.py:48 rating/enums.py:26
+msgid "Creation Date (Old to New)"
+msgstr "Data e krijimit (Nga më e vjetra te më e reja)"
+
+#: business/enums.py:57
+msgid "free_hours (High to Low)"
+msgstr "Orët e lira (Nga më të lartat te më të ultat)"
+
+#: business/enums.py:58
+msgid "free_hours (Low to High)"
+msgstr "Orët e lira (Nga më të ultat te më të lartat)"
+
+#: business/enums.py:65
+msgid "Monday"
+msgstr "E hënë"
+
+#: business/enums.py:66
+msgid "Tuesday"
+msgstr "E martë"
+
+#: business/enums.py:67
+msgid "Wednesday"
+msgstr "E mërkurë"
+
+#: business/enums.py:68
+msgid "Thursday"
+msgstr "E enjte"
+
+#: business/enums.py:69
+msgid "Friday"
+msgstr "E premte"
+
+#: business/enums.py:70
+msgid "Saturday"
+msgstr "E shtunë"
+
+#: business/enums.py:71
+msgid "Sunday"
+msgstr "E diel"
+
+#: business/enums.py:78
+msgid "On Site"
+msgstr "Në Vend"
+
+#: business/enums.py:79
+msgid "Home Visit"
+msgstr "Vizitë në shtëpi"
+
+#: business/enums.py:86 business/models.py:319
+msgid "Business"
+msgstr "Biznes"
+
+#: business/enums.py:87
+msgid "Freelance"
+msgstr "Freelance"
+
+#: business/enums.py:94
+msgid "Facebook"
+msgstr "Facebook"
+
+#: business/enums.py:95
+msgid "Instagram"
+msgstr "Instagram"
+
+#: business/enums.py:96
+msgid "Twitter"
+msgstr "Twitter"
+
+#: business/enums.py:97
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: business/enums.py:98
+msgid "YouTube"
+msgstr "YouTube"
+
+#: business/enums.py:99
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: business/enums.py:100
+msgid "TikTok"
+msgstr "TikTok"
+
+#: business/enums.py:107 business/enums.py:172 onboarding/enums.py:18
+msgid "Pending"
+msgstr "Në pritje"
+
+#: business/enums.py:108
+msgid "Confirmed"
+msgstr "Konfirmuar"
+
+#: business/enums.py:109 business/enums.py:134
+msgid "Cancelled"
+msgstr "Anuluar"
+
+#: business/enums.py:110
+msgid "Completed"
+msgstr "Përfunduar"
+
+#: business/enums.py:111 business/enums.py:174 onboarding/enums.py:20
+msgid "Rejected"
+msgstr "Refuzuar"
+
+#: business/enums.py:118
+msgid "This Week Only"
+msgstr "Vetëm këtë javë"
+
+#: business/enums.py:119
+msgid "This Week and Next"
+msgstr "Këtë javë dhe javën e ardhshme"
+
+#: business/enums.py:120
+msgid "All Weeks"
+msgstr "Të gjitha javët"
+
+#: business/enums.py:127 business/enums.py:162
+msgid "Name (A-Z)"
+msgstr "Emri (A-Z)"
+
+#: business/enums.py:128 business/enums.py:163
+msgid "Name (Z-A)"
+msgstr "Emri (Z-A)"
+
+#: business/enums.py:129 business/enums.py:164
+msgid "Oldest first"
+msgstr "Më të vjetrat të parat"
+
+#: business/enums.py:130 business/enums.py:165
+msgid "Newest first"
+msgstr "Më të rejat të parat"
+
+#: business/enums.py:131
+msgid "Lowest rating first"
+msgstr "Vlerësimi më i ulët i pari"
+
+#: business/enums.py:132
+msgid "Highest rating first"
+msgstr "Vlerësimi më i lartë i pari"
+
+#: business/enums.py:133
+msgid "Non-rated"
+msgstr "Pa vlerësim"
+
+#: business/enums.py:135
+msgid "Date (Oldest first)"
+msgstr "Data (Më e vjetra e para)"
+
+#: business/enums.py:136
+msgid "Date (Newest first)"
+msgstr "Data (Më e reja e para)"
+
+#: business/enums.py:143
+msgid "Booking"
+msgstr "Rezervim"
+
+#: business/enums.py:144 business/models.py:271
+msgid "Employee"
+msgstr "Punonjës"
+
+#: business/enums.py:145
+msgid "Client"
+msgstr "Klient"
+
+#: business/enums.py:146
+msgid "All"
+msgstr "Të gjithë"
+
+#: business/enums.py:160
+msgid "Booking Count (High to Low)"
+msgstr "Numri i rezervimeve (Nga më i larti te më i ulëti)"
+
+#: business/enums.py:161
+msgid "Booking Count (Low to High)"
+msgstr "Numri i rezervimeve (Nga më i ulëti te më i larti)"
+
+#: business/enums.py:173
+msgid "Accepted"
+msgstr "Pranuar"
+
+#: business/models.py:19
+msgid "Service Category"
+msgstr "Kategoria e Shërbimit"
+
+#: business/models.py:20
+msgid "Service Categories"
+msgstr "Kategoritë e Shërbimit"
+
+#: business/models.py:30
+msgid "Logo"
+msgstr "Logo"
+
+#: business/models.py:55 business/models.py:219
+msgid "Duration of the service in HH:MM:SS format"
+msgstr "Kohëzgjatja e shërbimit në formatin HH:MM:SS"
+
+#: business/models.py:112 business/models.py:113
+msgid "Social Media"
+msgstr "Media Sociale"
+
+#: business/models.py:138
+msgid "Gallery"
+msgstr "Galeria"
+
+#: business/models.py:139
+msgid "Galleries"
+msgstr "Galeritë"
+
+#: business/models.py:149 business/models.py:205
+msgid "Image"
+msgstr "Imazh"
+
+#: business/models.py:153
+msgid "Is this image the main image for the business?"
+msgstr "A është ky imazh imazhi kryesor për biznesin?"
+
+#: business/models.py:167
+msgid "Video Gallery"
+msgstr "Galeria e Videove"
+
+#: business/models.py:168
+msgid "Video Galleries"
+msgstr "Galeritë e Videove"
+
+#: business/models.py:178
+msgid "Video"
+msgstr "Video"
+
+#: business/models.py:194
+msgid "Service"
+msgstr "Shërbim"
+
+#: business/models.py:195
+msgid "Services"
+msgstr "Shërbimet"
+
+#: business/models.py:272
+msgid "Employees"
+msgstr "Punonjësit"
+
+#: business/models.py:294 user/models.py:99
+msgid "Avatar"
+msgstr "Avatar"
+
+#: business/models.py:320
+msgid "Businesses"
+msgstr "Bizneset"
+
+#: business/models.py:344
+msgid "Address for collaboration with other businesses"
+msgstr "Adresa për bashkëpunim me biznese të tjera"
+
+#: business/models.py:347 onboarding/models.py:72
+msgid "Location"
+msgstr "Vendndodhja"
+
+#: business/models.py:406
+msgid "Time step for bookings in HH:MM:SS format"
+msgstr "Hapi kohor për rezervimet në formatin HH:MM:SS"
+
+#: business/models.py:510
+msgid "Reason for cancellation if the booking is cancelled"
+msgstr "Arsyeja e anulimit nëse rezervimi është anuluar"
+
+#: business/models.py:513
+msgid "Was remind notification sent to user"
+msgstr "A u dërgua njoftimi i kujtesës te përdoruesi"
+
+#: business/models.py:581 business/models.py:582
+msgid "Business Notification Settings"
+msgstr "Cilësimet e Njoftimeve të Biznesit"
+
+#: business/models.py:593
+msgid "Send Booking email to costumers"
+msgstr "Dërgo emailin e rezervimit te klientët"
+
+#: business/models.py:594
+msgid "Send Booking notification to costumers"
+msgstr "Dërgo njoftimin e rezervimit te klientët"
+
+#: business/models.py:596
+msgid "Send Reminder email to costumers"
+msgstr "Dërgo emailin e kujtesës te klientët"
+
+#: business/models.py:597
+msgid "Send Reminder notification to costumers"
+msgstr "Dërgo njoftimin e kujtesës te klientët"
+
+#: business/serializers.py:113
+msgid "Business with the provided UID does not exist."
+msgstr "Biznesi me UID-në e dhënë nuk ekziston."
+
+#: business/serializers.py:117
+msgid "You are not allowed to create a client for this business."
+msgstr "Nuk ju lejohet të krijoni një klient për këtë biznes."
+
+#: business/serializers.py:134
+msgid "Either email or phone must be provided."
+msgstr "Duhet të jepet ose email ose numër telefoni."
+
+#: business/serializers.py:150
+msgid "User with provided email or phone does not exist."
+msgstr "Përdoruesi me email ose numër telefoni të dhënë nuk ekziston."
+
+#: business/serializers.py:184
+msgid "You are not allowed to edit this client."
+msgstr "Nuk ju lejohet të ndryshoni këtë klient."
+
+#: business/serializers.py:509
+msgid "Services not found."
+msgstr "Shërbimet nuk u gjetën."
+
+#: business/serializers.py:522
+msgid "Employee not found."
+msgstr "Punonjësi nuk u gjet."
+
+#: business/serializers.py:535
+msgid "Business not found."
+msgstr "Biznesi nuk u gjet."
+
+#: business/serializers.py:550
+msgid "Categories not found."
+msgstr "Kategoritë nuk u gjetën."
+
+#: business/serializers.py:563
+msgid "Employee does not provide the selected services."
+msgstr "Punonjësi nuk ofron shërbimet e zgjedhura."
+
+#: business/serializers.py:602 business/serializers.py:672
+msgid "Client user not found."
+msgstr "Klienti nuk u gjet."
+
+#: business/serializers.py:659
+msgid "You cannot change the status of the booking."
+msgstr "Nuk mund të ndryshoni statusin e rezervimit."
+
+#: business/serializers.py:1025
+msgid "You are not allowed to accept this invitation."
+msgstr "Nuk ju lejohet të pranoni këtë ftesë."
+
+#: business/serializers.py:1051
+msgid "You are not allowed to ignore this invitation."
+msgstr "Nuk ju lejohet të injoroni këtë ftesë."
+
+#: business/serializers.py:1076
+msgid "You are not allowed to resend this invitation."
+msgstr "Nuk ju lejohet të ridërgoni këtë ftesë."
+
+#: business/views.py:727
+msgid "You are not allowed to delete this client."
+msgstr "Nuk ju lejohet të fshini këtë klient."
+
+#: business/views.py:811
+msgid "Both start_date and end_date are required."
+msgstr "Kërkohen si data e fillimit ashtu edhe data e përfundimit."
+
+#: business/views.py:819
+msgid ""
+"The difference between start_date and end_date should not exceed 7 days."
+msgstr "Diferenca ndërmjet datës së fillimit dhe datës së përfundimit nuk duhet të kalojë 7 ditë."
+
+#: core/distance/views.py:161
+msgid "Invalid longitude or latitude"
+msgstr "Gjatësi ose gjerësi gjeografike e pavlefshme"
+
+#: core/distance/views.py:167
+msgid "Invalid distance"
+msgstr "Distancë e pavlefshme"
+
+#: core/validators.py:14
+#, python-format
+msgid "File is bigger than max file size (%(file_size)s)"
+msgstr "Skedari është më i madh se madhësia maksimale e skedarit (%(file_size)s)"
+
+#: core/validators.py:24
+msgid "Invalid email format"
+msgstr "Format i pavlefshëm i emailit"
+
+#: core/validators.py:31
+msgid "Invalid phone number format"
+msgstr "Format i pavlefshëm i numrit të telefonit"
+
+#: mail/models.py:11
+msgid "User"
+msgstr "Përdorues"
+
+#: mail/models.py:18
+msgid "Subject"
+msgstr "Subjekti"
+
+#: mail/models.py:23 user/models.py:102
+msgid "Created at"
+msgstr "Krijuar në"
+
+#: notifications/models.py:19
+msgid "Notification"
+msgstr "Njoftim"
+
+#: notifications/models.py:20
+msgid "Notifications"
+msgstr "Njoftimet"
+
+#: notifications/models.py:23 notifications/models.py:119
+msgid "uid"
+msgstr "uid"
+
+#: notifications/models.py:29
+msgid "push_id"
+msgstr "push_id"
+
+#: notifications/models.py:36
+msgid "user"
+msgstr "përdorues"
+
+#: notifications/models.py:43 notifications/models.py:131
+msgid "title"
+msgstr "titulli"
+
+#: notifications/models.py:47 notifications/models.py:135
+msgid "body"
+msgstr "trupi"
+
+#: notifications/models.py:52
+msgid "data"
+msgstr "të dhëna"
+
+#: notifications/models.py:57 notifications/models.py:140
+msgid "notification_type"
+msgstr "lloji i njoftimit"
+
+#: notifications/models.py:64 notifications/models.py:199
+msgid "is_sent"
+msgstr "është_dërguar"
+
+#: notifications/models.py:68 notifications/models.py:194
+msgid "sent_at"
+msgstr "dërguar_në"
+
+#: notifications/models.py:73
+msgid "error"
+msgstr "gabim"
+
+#: notifications/models.py:78
+msgid "read_at"
+msgstr "lexuar_në"
+
+#: notifications/models.py:83
+msgid "created_at"
+msgstr "krijuar_në"
+
+#: notifications/models.py:126
+msgid "users"
+msgstr "përdoruesit"
+
+#: notifications/models.py:147
+msgid "external_link"
+msgstr "lidhja_e_jashtme"
+
+#: notifications/models.py:150
+msgid "The link that this notification should take the user to."
+msgstr "Lidhja ku duhet të shkojë përdoruesi nga ky njoftim."
+
+#: notifications/models.py:153
+msgid "related_object_type"
+msgstr "lloji_i_objektit_të_lidhur"
+
+#: notifications/models.py:158
+msgid "The type of the object that this notification is related to. eg:"
+msgstr "Lloji i objektit me të cilin lidhet ky njoftim. p.sh:"
+
+#: notifications/models.py:161
+msgid "related_object_uid"
+msgstr "uid_i_objektit_të_lidhur"
+
+#: notifications/models.py:165
+msgid "The uid of the object that this notification is related to. eg: "
+msgstr "UID i objektit me të cilin lidhet ky njoftim. p.sh: "
+
+#: notifications/models.py:168
+msgid "related_object_name"
+msgstr "emri_i_objektit_të_lidhur"
+
+#: notifications/models.py:172
+msgid "The name of the object that this notification is related to."
+msgstr "Emri i objektit me të cilin lidhet ky njoftim."
+
+#: notifications/models.py:175
+msgid "genre"
+msgstr "zhanër"
+
+#: notifications/models.py:179
+msgid "The genre that this notification is related to."
+msgstr "Zhanri me të cilin lidhet ky njoftim."
+
+#: notifications/models.py:182
+msgid "rich_text"
+msgstr "tekst_i_pasur"
+
+#: notifications/models.py:185
+msgid "The rich text that this notification should display."
+msgstr "Teksti i pasur që duhet të shfaqë ky njoftim."
+
+#: notifications/models.py:188
+msgid "preview_image"
+msgstr "imazhi_i_parapamjes"
+
+#: notifications/models.py:191
+msgid "The image that this notification should display."
+msgstr "Imazhi që duhet të shfaqë ky njoftim."
+
+#: notifications/models.py:203
+msgid "take to questionnaire"
+msgstr "shko te pyetësori"
+
+#: notifications/models.py:205
+msgid ""
+"If true, the notification will take the user to the questionnaire screen."
+msgstr "Nëse është e vërtetë, njoftimi do ta çojë përdoruesin te ekrani i pyetësorit."
+
+#: notifications/models.py:208
+msgid "is_app_update"
+msgstr "është_përditësim_aplikacioni"
+
+#: notifications/models.py:210
+msgid ""
+"If true, the notification will be considered as an app update notification."
+msgstr "Nëse është e vërtetë, njoftimi do të konsiderohet si njoftim për përditësim të aplikacionit."
+
+#: notifications/views.py:45
+msgid "Order by"
+msgstr "Rendit sipas"
+
+#: notifications/views.py:53
+msgid "Notification type"
+msgstr "Lloji i njoftimit"
+
+#: onboarding/enums.py:6 onboarding/enums.py:12
+msgid "male"
+msgstr "mashkull"
+
+#: onboarding/enums.py:7 onboarding/enums.py:13
+msgid "female"
+msgstr "femër"
+
+#: onboarding/enums.py:8
+msgid "rather not say"
+msgstr "preferoj të mos them"
+
+#: onboarding/enums.py:14
+msgid "other"
+msgstr "tjetër"
+
+#: onboarding/enums.py:19
+msgid "Approved"
+msgstr "Aprovuar"
+
+#: onboarding/enums.py:21
+msgid "Canceled"
+msgstr "Anuluar"
+
+#: onboarding/models.py:47
+msgid "Freelancer"
+msgstr "Freelancer"
+
+#: onboarding/models.py:48
+msgid "Freelancers"
+msgstr "Freelancerë"
+
+#: onboarding/serializers.py:63 onboarding/serializers.py:141
+msgid "Invalid category."
+msgstr "Kategori e pavlefshme."
+
+#: onboarding/serializers.py:71 onboarding/serializers.py:149
+msgid "Invalid categories."
+msgstr "Kategori të pavlefshme."
+
+#: onboarding/serializers.py:81
+msgid "You already have a business."
+msgstr "Ju tashmë keni një biznes."
+
+#: onboarding/serializers.py:190 onboarding/serializers.py:271
+#: onboarding/serializers.py:326 onboarding/serializers.py:361
+#: onboarding/serializers.py:491 onboarding/serializers.py:526
+#: onboarding/serializers.py:577 onboarding/serializers.py:753
+#: onboarding/serializers.py:795 onboarding/serializers.py:838
+#: onboarding/serializers.py:963
+msgid "Invalid business uid."
+msgstr "UID i biznesit i pavlefshëm."
+
+#: onboarding/serializers.py:192 onboarding/serializers.py:363
+#: onboarding/serializers.py:494 onboarding/serializers.py:529
+#: onboarding/serializers.py:586 onboarding/serializers.py:667
+#: onboarding/serializers.py:703 onboarding/serializers.py:756
+#: onboarding/serializers.py:798 onboarding/serializers.py:915
+#: onboarding/serializers.py:966 onboarding/serializers.py:1003
+msgid "You are not the owner of this business."
+msgstr "Ju nuk jeni pronari i këtij biznesi."
+
+#: onboarding/serializers.py:262 onboarding/serializers.py:318
+msgid "Invalid working hours uid."
+msgstr "UID i orarit të punës i pavlefshëm."
+
+#: onboarding/serializers.py:264 onboarding/serializers.py:320
+msgid "You must provide either business_uid or employee_uid."
+msgstr "Duhet të jepni ose business_uid ose employee_uid."
+
+#: onboarding/serializers.py:286 onboarding/serializers.py:1000
+msgid "Invalid employee uid."
+msgstr "UID i punonjësit i pavlefshëm."
+
+#: onboarding/serializers.py:418
+msgid "You already have a costumer profile."
+msgstr "Ju tashmë keni një profil klienti."
+
+#: onboarding/serializers.py:583 onboarding/serializers.py:627
+msgid "You must provide a category or categories."
+msgstr "Duhet të jepni një kategori ose kategori."
+
+#: onboarding/serializers.py:664 onboarding/serializers.py:700
+msgid "Invalid service uid."
+msgstr "UID i shërbimit i pavlefshëm."
+
+#: onboarding/serializers.py:745 onboarding/serializers.py:955
+msgid "Invalid services."
+msgstr "Shërbime të pavlefshme."
+
+#: onboarding/serializers.py:758
+msgid "You cannot add employees to a freelancer business."
+msgstr "Nuk mund të shtoni punonjës në një biznes freelancer."
+
+#: onboarding/serializers.py:806
+msgid "Invalid freelancer uid."
+msgstr "UID i freelancerit i pavlefshëm."
+
+#: onboarding/serializers.py:840
+msgid "You cannot apply to a freelancer business."
+msgstr "Nuk mund të aplikoni në një biznes freelancer."
+
+#: onboarding/serializers.py:855
+msgid "You are not a freelancer."
+msgstr "Ju nuk jeni një freelancer."
+
+#: onboarding/serializers.py:860
+msgid "You already have an application for this business."
+msgstr "Ju tashmë keni një aplikim për këtë biznes."
+
+#: onboarding/serializers.py:903
+msgid "You can only cancel your application as a freelancer."
+msgstr "Mund të anuloni aplikimin tuaj vetëm si freelancer."
+
+#: onboarding/serializers.py:909
+msgid "You can only approve or reject the application as a business."
+msgstr "Mund të aprovoni ose refuzoni aplikimin vetëm si biznes."
+
+#: onboarding/serializers.py:1053
+msgid "You already have a freelancer profile."
+msgstr "Ju tashmë keni një profil freelancer."
+
+#: onboarding/views.py:398
+msgid "User is not a freelancer."
+msgstr "Përdoruesi nuk është freelancer."
+
+#: onboarding/views.py:400
+msgid "Freelancer does not have an employee profile."
+msgstr "Freelanceri nuk ka një profil punonjësi."
+
+#: rating/enums.py:10
+msgid "Excellent"
+msgstr "Shkëlqyer"
+
+#: rating/enums.py:11
+msgid "Very Good"
+msgstr "Shumë mirë"
+
+#: rating/enums.py:12
+msgid "Good"
+msgstr "Mirë"
+
+#: rating/enums.py:13
+msgid "Fair"
+msgstr "Mesatar"
+
+#: rating/enums.py:14
+msgid "Poor"
+msgstr "Dobët"
+
+#: rating/enums.py:15
+msgid "Neutral"
+msgstr "Neutral"
+
+#: rating/models.py:55
+msgid "Rating"
+msgstr "Vlerësim"
+
+#: rating/models.py:56
+msgid "Ratings"
+msgstr "Vlerësimet"
+
+#: rating/models.py:76
+msgid "User Business Favorite"
+msgstr "Biznes i Preferuar i Përdoruesit"
+
+#: rating/models.py:77
+msgid "User Business Favorites"
+msgstr "Bizneset e Preferuara të Përdoruesit"
+
+#: rating/models.py:98
+msgid "User Business Save"
+msgstr "Biznes i Ruajtur i Përdoruesit"
+
+#: rating/models.py:99
+msgid "User Business Saves"
+msgstr "Bizneset e Ruajtura të Përdoruesit"
+
+#: rating/models.py:120
+msgid "User Employee Favorite"
+msgstr "Punonjës i Preferuar i Përdoruesit"
+
+#: rating/models.py:121
+msgid "User Employee Favorites"
+msgstr "Punonjësit e Preferuar të Përdoruesit"
+
+#: rating/serializers.py:63
+msgid "Booking does not exist."
+msgstr "Rezervimi nuk ekziston."
+
+#: rating/serializers.py:71 rating/serializers.py:277
+msgid "Employee does not exist."
+msgstr "Punonjësi nuk ekziston."
+
+#: rating/serializers.py:77 rating/serializers.py:211 rating/serializers.py:244
+msgid "Business does not exist."
+msgstr "Biznesi nuk ekziston."
+
+#: rating/serializers.py:85
+msgid "Rating does not exist."
+msgstr "Vlerësimi nuk ekziston."
+
+#: rating/serializers.py:95
+msgid "You cannot rate both business and employee at the same time."
+msgstr "Nuk mund të vlerësoni biznesin dhe punonjësin në të njëjtën kohë."
+
+#: rating/serializers.py:104
+msgid "You have already rated this employee."
+msgstr "Ju e keni vlerësuar tashmë këtë punonjës."
+
+#: rating/serializers.py:111
+msgid "You have already rated this business."
+msgstr "Ju e keni vlerësuar tashmë këtë biznes."
+
+#: settings.py:330
+msgid "English"
+msgstr "Anglisht"
+
+#: settings.py:331
+msgid "Albanian"
+msgstr "Shqip"
+
+#: sms/serializers.py:37 sms/serializers.py:180 sms/serializers.py:270
+msgid "Invalid code"
+msgstr "Kod i pavlefshëm"
+
+#: sms/serializers.py:50
+msgid "Choose user role for registration"
+msgstr "Zgjidhni rolin e përdoruesit për regjistrim"
+
+#: sms/serializers.py:68
+msgid "Phone number or Password is incorrect"
+msgstr "Numri i telefonit ose Fjalëkalimi është i pasaktë"
+
+#: sms/serializers.py:76
+msgid "Password or phone number is incorrect"
+msgstr "Fjalëkalimi ose numri i telefonit është i pasaktë"
+
+#: sms/serializers.py:88 sms/serializers.py:98 sms/serializers.py:201
+#: sms/serializers.py:211
+msgid "Verification code sent successfully"
+msgstr "Kodi i verifikimit u dërgua me sukses"
+
+#: sms/serializers.py:96 sms/serializers.py:208
+msgid "Could not send verification SMS"
+msgstr "Nuk mund të dërgohej SMS-ja e verifikimit"
+
+#: sms/serializers.py:115 user/serializers.py:497 user/serializers.py:539
+#: user/serializers.py:556
+msgid "User does not exist"
+msgstr "Përdoruesi nuk ekziston"
+
+#: sms/serializers.py:151
+msgid "Old phone number is incorrect"
+msgstr "Numri i vjetër i telefonit është i pasaktë"
+
+#: sms/serializers.py:157
+msgid "New phone number is the same as old"
+msgstr "Numri i ri i telefonit është i njëjtë me atë të vjetrin"
+
+#: sms/serializers.py:171 sms/serializers.py:186
+msgid "Phone number updated successfully"
+msgstr "Numri i telefonit u përditësua me sukses"
+
+#: sms/serializers.py:227 sms/serializers.py:231
+msgid "SMS code verified successfully"
+msgstr "Kodi i SMS-së u verifikua me sukses"
+
+#: sms/serializers.py:246
+msgid "Invalid password format"
+msgstr "Format i pavlefshëm i fjalëkalimit"
+
+#: sms/serializers.py:257
+msgid "User with this phone does not exist"
+msgstr "Përdoruesi me këtë numër telefoni nuk ekziston"
+
+#: sms/serializers.py:260
+msgid "New password cannot be the same as the old password"
+msgstr "Fjalëkalimi i ri nuk mund të jetë i njëjtë me fjalëkalimin e vjetër"
+
+#: sms/serializers.py:275
+msgid "Password reset successfully"
+msgstr "Fjalëkalimi u rivendos me sukses"
+
+#: sms/sms_client.py:30
+#, python-brace-format
+msgid "Failed to send sms verification to {phone_number}."
+msgstr "Dështoi dërgimi i SMS-së së verifikimit te {phone_number}."
+
+#: sms/sms_client.py:46
+#, python-brace-format
+msgid ""
+"Failed to check sms code for {phone_number}. double check the code or try "
+"again."
+msgstr "Dështoi kontrolli i kodit të SMS-së për {phone_number}. kontrolloni kodin ose provoni përsëri."
+
+#: user/models.py:56
+msgid "Send push notifications"
+msgstr "Dërgo njoftime push"
+
+#: user/models.py:60
+msgid "Send email notifications"
+msgstr "Dërgo njoftime me email"
+
+#: user/models.py:65
+msgid "Notification settings"
+msgstr "Cilësimet e njoftimeve"
+
+#: user/models.py:73
+msgid "Email"
+msgstr "Email"
+
+#: user/models.py:80
+msgid "Phone"
+msgstr "Telefon"
+
+#: user/models.py:89
+msgid "Is phone verified?"
+msgstr "A është verifikuar numri i telefonit?"
+
+#: user/models.py:91
+msgid "Name"
+msgstr "Emri"
+
+#: user/models.py:92
+msgid "Surname"
+msgstr "Mbiemri"
+
+#: user/models.py:105
+msgid "Is email verified?"
+msgstr "A është verifikuar emaili?"
+
+#: user/models.py:110
+msgid "Is staff?"
+msgstr "A është staf?"
+
+#: user/models.py:111
+msgid "Use this option for create Staff"
+msgstr "Përdoreni këtë opsion për të krijuar Staf"
+
+#: user/models.py:114
+msgid "Current location"
+msgstr "Vendndodhja aktuale"
+
+#: user/models.py:122
+msgid "Chosen role"
+msgstr "Roli i zgjedhur"
+
+#: user/models.py:172
+msgid "Get Updated and promotions email"
+msgstr "Merrni emaile për përditësime dhe promovime"
+
+#: user/models.py:176
+msgid "GEt Updated and promotions notification"
+msgstr "Merrni njoftime për përditësime dhe promovime"
+
+#: user/models.py:180
+msgid "Get booking email"
+msgstr "Merrni email për rezervim"
+
+#: user/models.py:184
+msgid "Get booking notification"
+msgstr "Merrni njoftim për rezervim"
+
+#: user/models.py:188
+msgid "Get booking cancellation email"
+msgstr "Merrni email për anulim rezervimi"
+
+#: user/models.py:192
+msgid "Get booking cancellation notification"
+msgstr "Merrni njoftim për anulim rezervimi"
+
+#: user/models.py:196
+msgid "Get reminder email"
+msgstr "Merrni email për kujtesë"
+
+#: user/models.py:200
+msgid "Get reminder notification"
+msgstr "Merrni njoftim për kujtesë"
+
+#: user/models.py:205
+msgid "Apply to business notification"
+msgstr "Njoftim për aplikim në biznes"
+
+#: user/models.py:209
+msgid "Apply response to business notification"
+msgstr "Njoftim për përgjigjen e aplikimit në biznes"
+
+#: user/models.py:224
+msgid "Push notification id"
+msgstr "ID e njoftimit push"
+
+#: user/models.py:249
+msgid "Device ID"
+msgstr "ID e pajisjes"
+
+#: user/models.py:253
+msgid "Is blacklisted?"
+msgstr "A është në listën e zezë?"
+
+#: user/models.py:254
+msgid "Indicates if the device is blacklisted"
+msgstr "Tregon nëse pajisja është në listën e zezë"
+
+#: user/permissions.py:7
+msgid "You are not the owner of this object."
+msgstr "Ju nuk jeni pronari i këtij objekti."
+
+#: user/permissions.py:14
+msgid "You are not a paid user."
+msgstr "Ju nuk jeni një përdorues i paguar."
+
+#: user/serializers.py:37
+msgid "Password is required"
+msgstr "Fjalëkalimi është i nevojshëm"
+
+#: user/serializers.py:43
+msgid "Invalid password"
+msgstr "Fjalëkalim i pavlefshëm"
+
+#: user/serializers.py:44
+msgid "Password verified successfully"
+msgstr "Fjalëkalimi u verifikua me sukses"
+
+#: user/serializers.py:60 user/serializers.py:345
+msgid "User already registered"
+msgstr "Përdoruesi është i regjistruar tashmë"
+
+#: user/serializers.py:76
+msgid "Registration error"
+msgstr "Gabim në regjistrim"
+
+#: user/serializers.py:134
+msgid "Already registered"
+msgstr "I regjistruar tashmë"
+
+#: user/serializers.py:173 user/serializers.py:181 user/serializers.py:185
+msgid "Not valid authentication credentials"
+msgstr "Kredenciale autentifikimi të pavlefshme"
+
+#: user/serializers.py:219 user/serializers.py:232
+msgid "Token is invalid or expired"
+msgstr "Tokeni është i pavlefshëm ose ka skaduar"
+
+#: user/serializers.py:255
+msgid "Successfully logged out from all devices"
+msgstr "U shkyçët me sukses nga të gjitha pajisjet"
+
+#: user/serializers.py:408
+msgid "Invalid old password"
+msgstr "Fjalëkalim i vjetër i pavlefshëm"
+
+#: user/serializers.py:412 user/serializers.py:500
+msgid "Old password cant be used as new password"
+msgstr "Fjalëkalimi i vjetër nuk mund të përdoret si fjalëkalim i ri"
+
+#: user/serializers.py:418 user/serializers.py:490
+msgid ""
+"Password must contain at least 8 Characters: 1 lowercase or 1 uppercase, and "
+"1 digit"
+msgstr "Fjalëkalimi duhet të përmbajë të paktën 8 karaktere: 1 shkronjë e vogël ose 1 e madhe, dhe 1 shifër"
+
+#: user/serializers.py:440 user/serializers.py:662
+msgid "User not found"
+msgstr "Përdoruesi nuk u gjet"
+
+#: user/serializers.py:462
+msgid "Email or code cant be blank"
+msgstr "Emaili ose kodi nuk mund të jetë bosh"
+
+#: user/serializers.py:468
+msgid "Code is NOT valid"
+msgstr "Kodi NUK është i vlefshëm"
+
+#: user/serializers.py:482 user/serializers.py:600 user/serializers.py:656
+msgid "Not all fields are filled correctly"
+msgstr "Jo të gjitha fushat janë plotësuar saktë"
+
+#: user/serializers.py:506 user/serializers.py:545 user/serializers.py:606
+msgid "Wrong code"
+msgstr "Kod i gabuar"
+
+#: user/serializers.py:514
+msgid "Update password error"
+msgstr "Gabim në përditësimin e fjalëkalimit"
+
+#: user/serializers.py:521
+msgid "Password was successfully updated"
+msgstr "Fjalëkalimi u përditësua me sukses"
+
+#: user/serializers.py:547
+msgid "Code is valid, you can set new password"
+msgstr "Kodi është i vlefshëm, mund të vendosni fjalëkalim të ri"
+
+#: user/serializers.py:563
+msgid "This code does not exist"
+msgstr "Ky kod nuk ekziston"
+
+#: user/serializers.py:582
+msgid "Could not send verification email: {str(e)}"
+msgstr "Nuk mund të dërgohej emaili i verifikimit: {str(e)}"
+
+#: user/serializers.py:585
+msgid "Code was successfully send"
+msgstr "Kodi u dërgua me sukses"
+
+#: user/serializers.py:617
+msgid "Code or email is not valid"
+msgstr "Kodi ose emaili nuk është i vlefshëm"
+
+#: user/serializers.py:629
+msgid "User with this phone not found"
+msgstr "Përdoruesi me këtë numër telefoni nuk u gjet"
+
+#: user/utils.py:15
+msgid "Password must be at least 8 symbols"
+msgstr "Fjalëkalimi duhet të ketë të paktën 8 simbole"
+
+#: user/utils.py:17
+msgid "Password must have at least 1 digit"
+msgstr "Fjalëkalimi duhet të ketë të paktën 1 shifër"
+
+#: user/utils.py:23
+msgid "Password must have at least 1 character in lowercase or uppercase"
+msgstr "Fjalëkalimi duhet të ketë të paktën 1 shkronjë të vogël ose të madhe"

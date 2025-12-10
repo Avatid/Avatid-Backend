@@ -1,0 +1,96 @@
+{% extends 'admin/base.html' %}
+
+{% block extrastyle %}{{ block.super }}
+    <style>
+        html[data-theme='light'],
+
+        :root {
+            --accent: #fff;
+            --header-color: #fff;
+            --header-branding-color: #fff;
+            --hairline-color: #f6f6f6;
+            --selected-row: #d3f2c99c;
+            --delete-button-bg: #D22B2B;
+            --delete-button-hover-bg: #FF2400;
+            --error-fg: #ba2121;
+        }
+
+        #header {
+            margin: 0 20px;
+            padding: 10px 20px !important;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+
+        .breadcrumbs {
+            width: fit-content;
+            max-width: 100%;
+            margin: 15px 20px;
+            padding: 8px !important;
+            border-radius: 5px;
+        }
+
+        #main {
+            margin-top: 10px;
+        }
+
+        #nav-filter {
+            display: none;
+        }
+
+        .main.shifted > #nav-sidebar {
+            border-right: 0;
+            padding: 0 10px 0 10px;
+            visibility: visible;
+        }
+
+        #nav-sidebar .module {
+            box-shadow: rgba(0, 0, 0, 0.1) 0 5px 15px 0;
+        }
+
+        #nav-sidebar td, th {
+            border-bottom: 0
+        }
+
+        .toggle-nav-sidebar {
+            border-right: 0
+        }
+
+        .module {
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .submit-row {
+            box-shadow: rgba(0, 0, 0, 0.1) 0 5px 15px 0;
+        }
+
+        #content {
+            padding: 20px 20px;
+        }
+
+        ul.messagelist {
+            margin: 0 20px;
+        }
+
+        ul.messagelist li {
+            border-radius: 5px;
+        }
+
+        #toggle-nav-sidebar {
+            flex: 0 0 10px;
+        }
+
+        .module.aligned {
+            box-shadow: rgba(0, 0, 0, 0.1) 0 5px 15px 0;
+        }
+
+        {# DJANGO NESTED ADMIN #}
+        .djn-fieldset.module {
+            box-shadow: rgba(0, 0, 0, 0.1) 0 5px 15px 0;
+        }
+
+        {# html[data-theme='dark'], :root {} #}
+        {# html[data-theme='auto'], :root {} #}
+    </style>
+{% endblock %}

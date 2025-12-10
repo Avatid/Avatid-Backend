@@ -1,0 +1,13 @@
+name: PROD Connect to GCloud VM and update it
+on:
+  workflow_dispatch:
+
+jobs:
+  update-gcloud-vm:
+    uses: development-at-pixelfield/workflow-templates/.github/workflows/ssh_vm_connection_and_update.yml@v1.0.1
+    secrets: inherit
+    with:
+      VM_ADDRESS: ${{ vars.VM_ADDRESS_PROD }}
+      VM_PORT: ${{ vars.VM_PORT }}
+      VM_USERNAME: ${{ vars.VM_USERNAME }}
+      SCRIPT_PATH: ${{ vars.SCRIPT_PATH_PROD }}
