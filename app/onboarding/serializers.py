@@ -238,7 +238,7 @@ class WorkingHoursCreateSerializer(serializers.ModelSerializer):
         attrs["business"] = business
         attrs["user"] = user
         return attrs
-    
+
     def create(self, validated_data):
         business = validated_data.pop("business", None)
 
@@ -261,16 +261,29 @@ class WorkingHoursCreateSerializer(serializers.ModelSerializer):
 
         business.working_hours.add(instance)
         return instance
-
+    
 
 class BreakingHoursCreateSerializer(WorkingHoursCreateSerializer):
     def create(self, validated_data):
         business = validated_data.pop("business", None)
-        instance, _ = business_models.WorkingHours.objects.update_or_create(
-            day_of_week=validated_data["day_of_week"],
-            start_time=validated_data["start_time"],
-            end_time=validated_data["end_time"],
-        )
+
+        day = validated_data["day_of_week"]
+        start = validated_data["start_time"]
+        end = validated_data["end_time"]
+
+        instance = business_models.WorkingHours.objects.filter(
+            day_of_week=day,
+            start_time=start,
+            end_time=end,
+        ).first()
+
+        if instance is None:
+            instance = business_models.WorkingHours.objects.create(
+                day_of_week=day,
+                start_time=start,
+                end_time=end,
+            )
+
         business.breaking_hours.add(instance)
         return instance
     
@@ -763,14 +776,27 @@ class WorkingHoursCreateServiceSerializer(serializers.ModelSerializer):
         if not user == service.business.user:
             raise serializers.ValidationError(_("You are not the owner of this business."))
         return service
-    
+
     def create(self, validated_data):
         service = validated_data.pop("service", None)
-        instance, _ = business_models.WorkingHours.objects.get_or_create(
-            day_of_week=validated_data["day_of_week"],
-            start_time=validated_data["start_time"],
-            end_time=validated_data["end_time"],
-        )
+
+        day = validated_data["day_of_week"]
+        start = validated_data["start_time"]
+        end = validated_data["end_time"]
+
+        instance = business_models.WorkingHours.objects.filter(
+            day_of_week=day,
+            start_time=start,
+            end_time=end,
+        ).first()
+
+        if instance is None:
+            instance = business_models.WorkingHours.objects.create(
+                day_of_week=day,
+                start_time=start,
+                end_time=end,
+            )
+
         service.working_hours.add(instance)
         return instance
 
@@ -1066,11 +1092,24 @@ class WorkingHoursCreateEmployeeSerializer(serializers.ModelSerializer):
     
     def create(self, validated_data):
         employee = validated_data.pop("employee", None)
-        instance, _ = business_models.WorkingHours.objects.get_or_create(
-            day_of_week=validated_data["day_of_week"],
-            start_time=validated_data["start_time"],
-            end_time=validated_data["end_time"],
-        )
+
+        day = validated_data["day_of_week"]
+        start = validated_data["start_time"]
+        end = validated_data["end_time"]
+
+        instance = business_models.WorkingHours.objects.filter(
+            day_of_week=day,
+            start_time=start,
+            end_time=end,
+        ).first()
+
+        if instance is None:
+            instance = business_models.WorkingHours.objects.create(
+                day_of_week=day,
+                start_time=start,
+                end_time=end,
+            )
+
         employee.working_hours.add(instance)
         return instance
 
