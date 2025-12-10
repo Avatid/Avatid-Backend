@@ -102,7 +102,6 @@ AvatID is a comprehensive Django REST API backend for a business booking and ser
 - Notifications - Multi-channel notification system (push, email, SMS)
 - Multi-language Support - English and Albanian localization
 - Payment Integration - Apple and Google Pay support
-- Real-time Chat - Firebase-based messaging system
 
 ## Architecture
 
@@ -163,7 +162,7 @@ app/
 ### External Services
 
 - Google Cloud Platform - Storage, Secret Manager, Vision API
-- Firebase - Push notifications, real-time chat
+- Firebase - Push notifications
 - Twilio - SMS verification
 - SendGrid - Email delivery
 
