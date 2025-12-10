@@ -240,28 +240,28 @@ class WorkingHoursCreateSerializer(serializers.ModelSerializer):
         return attrs
     
     def create(self, validated_data):
-            business = validated_data.pop("business", None)
+        business = validated_data.pop("business", None)
 
-            day = validated_data["day_of_week"]
-            start = validated_data["start_time"]
-            end = validated_data["end_time"]
+        day = validated_data["day_of_week"]
+        start = validated_data["start_time"]
+        end = validated_data["end_time"]
 
-            instance = business_models.WorkingHours.objects.filter(
+        instance = business_models.WorkingHours.objects.filter(
+            day_of_week=day,
+            start_time=start,
+            end_time=end,
+        ).first()
+
+        if instance is None:
+            instance = business_models.WorkingHours.objects.create(
                 day_of_week=day,
                 start_time=start,
                 end_time=end,
-            ).first()
+            )
 
-            if instance is None:
-                instance = business_models.WorkingHours.objects.create(
-                    day_of_week=day,
-                    start_time=start,
-                    end_time=end,
-                )
+        business.working_hours.add(instance)
+        return instance
 
-            business.working_hours.add(instance)
-            return instance
-    
 
 class BreakingHoursCreateSerializer(WorkingHoursCreateSerializer):
     def create(self, validated_data):
